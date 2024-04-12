@@ -4,3 +4,7 @@ plotly
 matplotlib
 koreanize-matplotlib
 seaborn
+BeautifulSoup
+pathlib
+shutil
+streamlit
