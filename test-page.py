@@ -30,10 +30,10 @@ components.html(ga_code, height=0, width=0)
 
 
 
-st.set_page_config(
-    page_title = '주식 차트 대시보드',
-    page_icon = '📈',
-)
+# st.set_page_config(
+#     page_title = '주식 차트 대시보드',
+#     page_icon = '📈',
+# )
 
 # 제목
 st.title("📈 주식 차트 대시보드")
