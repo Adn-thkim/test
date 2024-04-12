@@ -16,7 +16,7 @@ import streamlit.components.v1 as components
 
 # Google Analytics 4 tracking code
 ga_code = """
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PSLTJHFB1W"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
