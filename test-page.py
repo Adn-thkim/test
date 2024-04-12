@@ -12,9 +12,9 @@ import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
 
-# import inject_ga
+import inject_ga
 
-# inject_ga.inject_ga()
+inject_ga.inject_ga()
 
 st.set_page_config(
     page_title = '주식 차트 대시보드',
