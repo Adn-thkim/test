@@ -4,8 +4,9 @@
 - Python
 ## 플랫폼
 - Jupyter
-- Google Analytics
+- Google Analytics 4
 - Amazon EC2
+- Amazon RDS
 ## 데이터
 - 출처 : 한국관광 데이터랩
 - 수집 기간 : 2021년 12월 - 2024년 2월 (계절 별)
