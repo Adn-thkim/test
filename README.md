@@ -4,6 +4,7 @@
 - Python
 ## 플랫폼
 - Jupyter
+- Streamlit
 - Google Analytics 4
 - Amazon EC2
 - Amazon RDS
