@@ -1,14 +1,14 @@
 # streamlit을 활용한 국내 여행지 추천 및 정보 제공 앱
-## 사용 언어
+## Languages
 - MySQL
 - Python
-## 플랫폼
+## Platform
 - Jupyter
 - Streamlit
 - Google Analytics 4
 - Amazon EC2
 - Amazon RDS
-## 데이터
+## Data
 - 출처 : 한국관광 데이터랩
 - 수집 기간 : 2021년 12월 - 2024년 2월 (계절 별)
   - 3, 4, 5월: 봄
@@ -21,7 +21,7 @@
   - 관광소비
   - 인기관광지
   - 소셜미디어
-## 프로세스(임시)
+## Process(임시)
 - 데이터 수집(TOUR API, 한국관광 데이터랩)
 - 단위 기간 및 대상 도시 별 데이터를 카테고리별로 병합
 - 테이블 관계 설정(key 컬럼 정의 및 생성)
