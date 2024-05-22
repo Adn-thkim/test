@@ -1,4 +1,4 @@
-# Streamlit을 활용한 국내 여행지 정보 제공 앱
+# Streamlit을 활용한 국내 여행지 정보 제공 웹서비스
 ## Languages
 - MySQL
 - Python
