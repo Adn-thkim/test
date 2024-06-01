@@ -9,7 +9,7 @@
 - Amazon EC2
 - Amazon RDS
 ## Data
-- 출처 : 한국관광 데이터랩, TOUR API
+- 출처 : TOUR API
 - 기간 : 2021년 12월 - 2024년 2월 (계절 별)
   - 3, 4, 5월: 봄
   - 6, 7, 8월: 여름
