@@ -20,7 +20,7 @@
 - 데이터 수집(TOUR API, 한국 관광 데이터랩)
 - 컨벤션 정의 및 한글 컬럼명 영어로 변경
 - 테이블 및 테이블 관계 설정(key 정의 및 생성)
-- Amazon RDS DB에 데이터 적재
+- Amazon RDS Database에 데이터 적재
 - Google Analytics 4 데이터 수집 설계
 - 전처리(결측치, 중복값, 이상치 처리)
 - EDA
