@@ -6,7 +6,7 @@
 - Jupyter
 - Streamlit
 - Google Analytics 4
-- Google Tag Management
+  - Google Tag Management
 - Amazon EC2
 - Amazon RDS
 ## Data
