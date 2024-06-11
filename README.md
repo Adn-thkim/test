@@ -18,7 +18,7 @@
   - 12, 1, 2월: 겨울
 ## Process(임시)
 - 데이터 수집(TOUR API, 한국 관광 데이터랩)
-- 컨벤션 정의 및 한글 컬럼명 영어로 변경
+- Python 네이밍 컨벤션 정의 및 한글 컬럼명 영어로 변경
 - 테이블 및 테이블 관계 설정(key 정의 및 생성)
 - Amazon RDS Database에 데이터 적재
 - Google Analytics 4 데이터 수집 설계
