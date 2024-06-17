@@ -17,14 +17,14 @@ st.set_page_config(
     page_icon = '📈',
 )
 
-# GTM
-st.markdown(
-    """
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LJ4D6L5"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    """, unsafe_allow_html=True)
+# # GTM
+# st.markdown(
+#     """
+#     <!-- Google Tag Manager (noscript) -->
+#     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LJ4D6L5"
+#     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+#     <!-- End Google Tag Manager (noscript) -->
+#     """, unsafe_allow_html=True)
 
 
 # 제목

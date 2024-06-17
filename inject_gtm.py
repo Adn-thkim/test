@@ -14,6 +14,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 """
 
+GA_BODY_SCRIPT = """
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LJ4D6L5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+"""
+
 def inject_ga():
     
     index_path = pathlib.Path(st.__file__).parent / "static" / "index.html"
@@ -26,4 +33,5 @@ def inject_ga():
             shutil.copy(index_path, bck_index)  
         html = str(soup)
         new_html = html.replace('<head>', '<head>\n' + GA_SCRIPT)
+        new_html = html.replace('<body>', '<body>\n' + GA_BODY_SCRIPT)
         index_path.write_text(new_html)
