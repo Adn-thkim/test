@@ -21,8 +21,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 """
 
+def restore_index_html():
+    print(1)
+    index_path = pathlib.Path(st.__file__).parent / "static" / "index.html"
+    bck_index = index_path.with_suffix('.bck')
+    if bck_index.exists():
+        shutil.copy(bck_index, index_path)
+    else:
+        print("No backup file found to restore.")
+
 def inject_ga():
-    
+    print(2)
     index_path = pathlib.Path(st.__file__).parent / "static" / "index.html"
     soup = BeautifulSoup(index_path.read_text(), features="html.parser")
     if not soup.find(id=GA_ID): 
@@ -32,6 +41,5 @@ def inject_ga():
         else:
             shutil.copy(index_path, bck_index)  
         html = str(soup)
-        new_html = html.replace('<head>', '<head>\n' + GA_SCRIPT)
-        new_html = html.replace('<body>', '<body>\n' + GA_BODY_SCRIPT)
+        new_html = html.replace('<head>', '<head>\n' + GA_SCRIPT).replace('<body>', '<body>\n' + GA_BODY_SCRIPT)
         index_path.write_text(new_html)

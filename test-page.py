@@ -18,13 +18,19 @@ st.set_page_config(
 )
 
 # # GTM
-# st.markdown(
-#     """
-#     <!-- Google Tag Manager (noscript) -->
-#     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LJ4D6L5"
-#     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-#     <!-- End Google Tag Manager (noscript) -->
-#     """, unsafe_allow_html=True)
+import inject_gtm
+# import streamlit.components.v1 as components
+inject_gtm.restore_index_html()
+inject_gtm.inject_ga()
+
+# gtm_body = """
+# <!-- Google Tag Manager (noscript) -->
+# <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5LJ4D6L5"
+# height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+# <!-- End Google Tag Manager (noscript) -->
+# """
+
+# components.html(gtm_body, height=0, width=0)
 
 
 # 제목
