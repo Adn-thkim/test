@@ -7,8 +7,9 @@
 - Streamlit
 - Google Analytics 4
   - Google Tag Management
-- Amazon EC2
-- Amazon RDS
+- Amazon Web Service
+  - Amazon EC2
+  - Amazon RDS
 ## Data
 - 출처 : TOUR API
 - 종류 :
