@@ -11,16 +11,17 @@ import datetime
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
+import inject_gtm
 
 st.set_page_config(
     page_title = '주식 차트 대시보드',
     page_icon = '📈',
 )
 
-# # GTM
-import inject_gtm
-# import streamlit.components.v1 as components
+# GTM
+# index.html 초기화
 inject_gtm.restore_index_html()
+# GTM 스니펫 index.html에 적용
 inject_gtm.inject_ga()
 
 # gtm_body = """
