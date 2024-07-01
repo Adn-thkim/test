@@ -23,7 +23,7 @@
 ## Process(임시)
 - 데이터 수집
 - Python 네이밍 컨벤션 정의
-- 테이블 및 관계 정의(key 정의 및 생성)
+- 테이블 및 테이블 관계 정의(key 정의 및 생성)
 - Amazon RDS Database에 데이터 적재
 - Streamlit을 활용하여 웹 페이지 개발
 - Google Analytics 4 데이터 수집 설계
