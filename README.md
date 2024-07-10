@@ -27,7 +27,8 @@
 - Python 네이밍 컨벤션 정의
 - 테이블 및 테이블 관계 정의(key 정의 및 생성)
 - Amazon RDS Database에 데이터 적재
-- Streamlit을 활용하여 웹 페이지 제작 및 배포
+- Streamlit을 활용하여 웹 페이지 제작
+- Streamlit Cloud를 활용하여 웹 페이지 배포
 - Google Analytics 4 데이터 수집 설계
 - 전처리(결측치, 중복값, 이상치 처리)
 - EDA
