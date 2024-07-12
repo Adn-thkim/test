@@ -29,6 +29,6 @@
 - Amazon RDS Database에 데이터 적재
 - Streamlit을 활용하여 웹 페이지 제작
 - Amazon Web Service EC2를 활용하여 웹 페이지 배포
-- Google Analytics 4 데이터 수집 설계
+- Google Analytics 4를 활용하여 데이터 수집 설계
 - 전처리(결측치, 중복값, 이상치 처리)
 - EDA
