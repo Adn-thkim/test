@@ -12,7 +12,7 @@
   - Amazon RDS
 - Github
 ## Data
-- 출처 : TOUR API
+- 출처 : TOUR API, 힌국 관광 데이터랩
 - 종류 :
   - 관광 빅데이터 정보 서비스
   - 영문 관광 정보 서비스
