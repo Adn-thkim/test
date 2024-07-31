@@ -23,7 +23,7 @@
   - 9, 10, 11월 : 가을
   - 12, 1, 2월 : 겨울
 ## Process
-- Python을 활용하여 데이터 수집
+- Python을 활용하여 TOUR API에서 데이터 수집
 - Python 네이밍 컨벤션 정의
 - 테이블 및 테이블 관계 정의(key 정의 및 생성)
 - Amazon RDS Database에 데이터 적재
