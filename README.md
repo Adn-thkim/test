@@ -10,6 +10,7 @@
 - Amazon Web Service
   - Amazon EC2
   - Amazon RDS
+- Airflow
 - Github
 ## Data
 - 출처 : TOUR API, 힌국 관광 데이터랩
