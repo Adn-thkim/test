@@ -28,6 +28,7 @@
 - Python 네이밍 컨벤션 정의
 - 테이블 및 테이블 관계 정의(key 정의 및 생성)
 - Amazon RDS Database에 데이터 적재
+- Airflow를 활용하여 데이터 자동 업데이트
 - Streamlit을 활용하여 웹 페이지 제작
 - Amazon Web Service EC2를 활용하여 웹 페이지 배포
 - Google Analytics 4를 활용하여 고객 행동 데이터 수집 설계
