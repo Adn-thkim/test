@@ -2,6 +2,7 @@
 ## Languages
 - MySQL
 - Python
+- Airflow
 ## Platform
 - Jupyter
 - Streamlit
