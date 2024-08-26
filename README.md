@@ -34,4 +34,4 @@
 - Amazon Web Service EC2를 활용하여 웹 페이지 배포
 - Google Analytics 4를 활용하여 고객 행동 데이터 수집 설계
 - 데이터 전처리(결측치, 중복값 및 이상치 처리)
-- EDA
+- EDA(탐색적 분석)
