@@ -28,6 +28,7 @@
 - Python 네이밍 컨벤션 정의
 - Python을 활용하여 TOUR API에서 관광지 방문자 데이터 수집
 - 테이블 및 테이블 관계 정의(key 정의 및 생성)
+- ERD 문서 작성
 - Amazon RDS Database에 데이터 적재
 - Airflow를 활용하여 자동 데이터 업데이트
 - Python Streamlit을 활용하여 웹 페이지 제작
